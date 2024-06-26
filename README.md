@@ -1,0 +1,1 @@
+În cadrul acestui proiect gestionez o bază de date MySQL în care țin informații despre pacienți, doctori și programări, o bază de date MongoDB în care stochez informații despre consultații și un modul de autentificare ce folosește JWS. Interfața cu utilizatorul este implementată folosind React.
