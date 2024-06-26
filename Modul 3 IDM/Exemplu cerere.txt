@@ -1,0 +1,4 @@
+curl -X 'GET' \
+  'http://localhost:8002/api/medical_office_user/1' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJbOjpdOjUwMDUxIiwic3ViIjoiMyIsImV4cCI6MTcwMjMxMDMwNiwianRpIjoiNWQ3MTU5MzEtYmIyNy00ZjMzLTg2M2YtMzg0MDNiMmU3OThiIiwicm9sZSI6ImFkbWluIn0.lp59h2HjAS_bfIZ0oy7dQvH0KAK7SDxM7Qi1qeGGpbI'

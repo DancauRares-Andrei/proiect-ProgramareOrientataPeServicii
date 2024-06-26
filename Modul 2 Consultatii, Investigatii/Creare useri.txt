@@ -1,0 +1,19 @@
+db.createUser({
+  user: "userAdminAnyDatabase",
+  pwd: "pass",
+  roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+});
+
+use medical_office_consultation
+db.createUser({
+  user: "dbOwner",
+  pwd: "pass",
+  roles: [ { role: "dbOwner", db: "medical_office_consultation" } ]
+});
+
+db.createUser({
+  user: "readWrite",
+  pwd: "pass",
+  roles: [ { role: "readWrite", db: "medical_office_consultation" } ]
+});
+
